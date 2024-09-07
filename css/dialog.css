@@ -1,0 +1,171 @@
+body {
+    background-size: cover;
+    user-select: none;
+}
+
+#dContainer {
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    padding: 12px 20px;
+    max-width: 500px;
+    width: auto;
+    height: auto;
+    color: #f2f2f2;
+    font-size: 15px;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(35deg, #000000b0 0%, #000000b0 100%);
+    border-radius: 2px;
+    font-family: 'ProximaNova-Semibold';
+}
+
+.dHeader {
+    font-size: 20px;
+    color: #FFFFFF;
+    font-family: 'gothampro-bold';
+    text-align: center;
+    letter-spacing: -0.5px;
+    margin-bottom: 15px;
+    margin-top: 4px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.dText {
+    background-color: #00000024;
+    border-radius: 2px;
+    max-height: 350px;
+    width: 100%;
+    overflow-y: auto;
+}
+.dTextInput {
+    border-radius: 2px;
+}
+.dTextHeaders {
+    background-color: #00000024;
+    border-radius: 2px;
+    max-height: 250px;
+    width: 100%;
+    overflow-y: auto;
+}
+
+.dInput {
+    width: 100%;
+    background-color: #0000004c;
+    border: none;
+    outline: none;
+    font-family: 'ProximaNova-Semibold';
+    letter-spacing: 0.3px;
+    padding: 12px 11px;
+    margin-top: 10px;
+    border-radius: 4px;
+    font-size: 13px;
+    color: white;
+}
+.dItem {
+    background-color: transparent;
+    margin-bottom: 5px;
+    padding: 10.5px 15px;
+    text-align: center;
+    min-width: 300px;
+    font-family: 'ProximaNova-Semibold';
+    letter-spacing: -0.5px;
+    font-size: 15px;
+    transition: 0.3s;
+    margin-left: -1vh;
+}
+.dItem:hover {
+    background-color: #eaeaea19;
+    border-radius: 1px;
+}
+.dTablist {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    align-self: end;
+}
+.dDialogTablist {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 10pt;
+    color: #fff;
+    transition: 0.5s;
+    margin-bottom: 5px;
+    height: 30px;
+    width: 400px;
+}
+
+.dButton {
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    user-select: none;
+}
+.dButtons {
+    background: radial-gradient(circle, white 0%, white 100%);
+    font-family: 'ProximaNova-Semibold';
+    padding: 10px 12px;
+    bottom: 6px;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 14px;
+    width: 120px;
+    text-align: center;
+    border-radius: 1px;
+    color: #525252;
+    position: relative;
+    transition: 0.3s;
+}
+.dButtons:hover {
+    box-shadow: 0px 0px 10px #f5f5f595;
+}
+
+
+span {
+    color: var(--i);
+    transition: 0.4s;
+}
+
+.dItem:hover span {
+  color: var(--g);
+}
+
+:root {
+    --scrollbarWidth: 5.5px;
+    --scrollbarBg: #31313193;
+    --scrollbarThumb: white;
+    --scrollbarBorderRadius: calc(var(--scrollbarWidth) / 1);
+}
+
+::-webkit-scrollbar {
+    width: var(--scrollbarWidth);
+}
+
+::-webkit-scrollbar-track {
+    background: var(--scrollbarBg);
+    border-radius: var(--scrollbarBorderRadius);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--scrollbarThumb);
+    border-radius: var(--scrollbarBorderRadius);
+    border: var(--scrollbarBorder);
+}
+
+.cefstudio {
+    background: none;
+    border: 0;
+}
+@font-face {
+    font-family: 'gothampro-bold';
+    src: url('fonts/gothampro-bold.ttf') format('truetype');
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ProximaNova-Semibold';
+    src: url('fonts/ProximaNova-Semibold.ttf') format('truetype');
+    font-style: normal;
+}
